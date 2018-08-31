@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 //路由懒加载
-const index = () => import ('@/views/About.vue')
+const index = () => import ('@/views/index.vue')
 Vue.use(Router)
 
 export default new Router({

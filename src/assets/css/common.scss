@@ -1,0 +1,59 @@
+/*
+*reset
+ */
+a,
+body,
+button,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+img,
+input,
+label,
+li,
+p,
+select,
+span,
+textarea input,
+ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  min-height: 100%;
+}
+
+body,
+html {
+  background: #fff;
+  font: 12PX/1.6 helvetica, "微软雅黑", "microsoft yahei", Verdana, Lucida, arial, sans-serif, "黑体";
+  box-sizing: border-box;
+  color: #4F5C6A;
+}
+
+h1,
+h2 {
+  font-weight: normal;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  color: #103E97;
+  text-decoration: none;
+}
